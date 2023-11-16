@@ -1,0 +1,31 @@
+{
+  "name": "@raintech-oss/dew-cli",
+  "version": "1.0.0",
+  "description": "File import tool for Jovo 4 and the jovo-dew library.",
+  "main": "cli.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "raintech",
+  "license": "Apache-2.0",
+  "homepage": "https://github.com/raintech-oss/dew-cli#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raintech-oss/dew-cli"
+  },
+  "bugs": {
+    "url": "https://github.com/raintech-oss/dew-cli/issues"
+  },
+  "bin": {
+    "dew": "./cli.js"
+  },
+  "dependencies": {
+    "@jovotech/model": "^4.0.0",
+    "chalk": "^4.1.1",
+    "find-up": "^5.0.0",
+    "google-spreadsheet": "^3.1.15",
+    "lodash": "^4.17.21",
+    "uuid": "^8.3.2",
+    "yargs": "^16.2.0"
+  }
+}
