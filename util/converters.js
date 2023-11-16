@@ -20,6 +20,8 @@ async function convertSheetToJSON(sheet) {
                 item[title] = Number(typeof (value) === 'string' ? value : 0);
             } else if (type === 'bool') {
                 item[title] = typeof (value) === 'string' ? ['TRUE', 'T', 'YES', 'Y'].includes(value.toUpperCase()) : false;
+            } else if (type === 'ignore') {
+                // skip value for column that ends in ":ignore"
             } else {
                 item[title] = typeof (value) === 'undefined' ? '' : value;
             }
