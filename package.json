@@ -1,6 +1,6 @@
 {
   "name": "@raintech-oss/dew-cli",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "File import tool for Jovo 4 and the jovo-dew library.",
   "main": "cli.js",
   "scripts": {
